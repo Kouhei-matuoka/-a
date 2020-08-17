@@ -94,6 +94,8 @@ p {
   text-align: center;
 }
 
+/* ユーザー登録・編集フォーム */
+
 .label-signup {
   margin-top: 5px;
 }
@@ -117,4 +119,14 @@ p {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+/* ログインフォーム */
+
+.label-login {
+  margin-top: 5px;
+}
+
+.btn-login {
+  margin-top: 10px;
 }
