@@ -68,6 +68,23 @@ p {
   text-decoration: none;
 }
 
+/* モーダルウインドウの位置調整 */
+
+.modal-dialog-center {
+  padding-top: 10%;
+}
+
+/* 基本情報編集モーダルウインドウ */
+
+.label-basic-info {
+  margin-top: 5px;
+}
+
+.btn-basic-info {
+  margin: 15px 0;
+  width: 30%;
+}
+
 /* debug */
 
 .debug_dump {
@@ -118,6 +135,18 @@ p {
   td {
     vertical-align: middle;
   }  
+}
+
+.input-group {
+  float: right;
+  margin: 20px 15% 0 0px;
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.paginate-top {
+  margin-top: 70px;
 }
 
 /* エラーメッセージ */
